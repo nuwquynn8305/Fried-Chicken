@@ -59,22 +59,22 @@ Ngoài ra, admin có thể:
 ## Cài đặt
 
 ```bash
-# Clone dự án
-git clone https://github.com/nuwquynn8305/Fried-Chicken.git
+### Clone dự án
+git clone [https://github.com/nuwquynn8305/Fried-Chicken.git]
 cd Fried-Chicken
 
-# Cài đặt client
+### Cài đặt client
 cd client
 npm install
 
-# Cài đặt server
+### Cài đặt server
 cd ../server
 npm install
 
-# Tạo file .env trong thư mục server
+### Tạo file .env trong thư mục server
 cp .env.example .env
 
-# Chạy server
+### Chạy server
 npm run dev
 
 # Chạy client
