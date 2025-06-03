@@ -60,7 +60,7 @@ Ngoài ra, admin có thể:
 
 ```bash
 ### Clone dự án
-git clone [https://github.com/nuwquynn8305/Fried-Chicken.git]
+git clone https://github.com/nuwquynn8305/Fried-Chicken.git
 cd Fried-Chicken
 
 ### Cài đặt client
@@ -77,6 +77,6 @@ cp .env.example .env
 ### Chạy server
 npm run dev
 
-# Chạy client
+### Chạy client
 cd ../client
 npm run dev
