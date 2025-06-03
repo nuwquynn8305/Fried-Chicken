@@ -1,5 +1,5 @@
 
-# Fried Chicken - Website Bán Gà Rán
+# Fried Chicken Shop - Website Bán Gà Rán
 
 > Dự án xây dựng website bán gà rán online với các chức năng như xem menu, đặt món, thanh toán, quản lý đơn hàng và người dùng.
 ## Tác Giả 
