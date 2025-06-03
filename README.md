@@ -60,8 +60,8 @@ Ngoài ra, admin có thể:
 
 ```bash
 # Clone dự án
-git clone https://github.com/yourusername/fried-chicken-shop.git
-cd fried-chicken-shop
+git clone https://github.com/nuwquynn8305/Fried-Chicken.git
+cd Fried-Chicken
 
 # Cài đặt client
 cd client
