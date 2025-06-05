@@ -5,6 +5,7 @@
 ## Tác Giả 
 - Tên : Đinh Thị NHư Quỳnh
 - Github :  https://github.com/nuwquynn8305
+- repo : https://github.com/nuwquynn8305/Fried-Chicken.git
 ## Mục lục
 
 - [Giới thiệu](#giới-thiệu)
