@@ -4,6 +4,7 @@
 > Dự án xây dựng website bán gà rán online với các chức năng như xem menu, đặt món, thanh toán, quản lý đơn hàng và người dùng.
 ## Tác Giả 
 - Tên : Đinh Thị NHư Quỳnh
+- Mã sinh viên : 23010844
 - Github :  https://github.com/nuwquynn8305
 - repo : https://github.com/nuwquynn8305/Fried-Chicken.git
 ## Mục lục
@@ -18,9 +19,9 @@
 - [Phát triển thêm](#phát-triển-thêm)
 - [Tác giả](#tác-giả)
 
-## Giới thiệu
+## Giới thiệu 
 
-Đây là dự án web bán hàng chuyên về gà rán, cho phép người dùng:
+Đây là dự án web bán hàng chuyên về gà rán, được xây dựng bằng **Next.js**, **Tailwind CSS**, và thư viện UI **shadcn/ui**, cho phép người dùng:
 - Xem danh sách món ăn
 - Đặt món trực tuyến
 - Theo dõi đơn hàng
@@ -44,7 +45,36 @@ Ngoài ra, admin có thể:
 - Quản lý đơn hàng
 - Quản lý người dùng
 - Thống kê doanh thu
+- 
+## Cấu trúc hệ thống (Class Diagram)
 
+```mermaid
+classDiagram
+    class Product {
+        +id: number
+        +name: string
+        +description: string
+        +price: number
+        +image: string
+    }
+
+    class Customer {
+        +id: number
+        +name: string
+        +email: string
+    }
+
+    class Order {
+        +id: number
+        +customerId: number
+        +productId: number
+        +quantity: number
+        +totalPrice(): number
+    }
+
+    Customer "1" --> "*" Order
+    Product "1" --> "*" Order
+``` 
 ## Công nghệ sử dụng
 
 | Công nghệ        | Mục đích                             |
